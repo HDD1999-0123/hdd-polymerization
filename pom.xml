@@ -19,6 +19,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>hdd-server</module>
+        <module>hdd-common</module>
     </modules>
     <dependencies>
         <dependency>

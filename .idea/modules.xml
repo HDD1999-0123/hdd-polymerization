@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hdd-common/hdd-common.iml" filepath="$PROJECT_DIR$/hdd-common/hdd-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdd-polymerization.iml" filepath="$PROJECT_DIR$/hdd-polymerization.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdd-server/hdd-server.iml" filepath="$PROJECT_DIR$/hdd-server/hdd-server.iml" />
     </modules>
