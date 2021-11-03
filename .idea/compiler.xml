@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hdd-server" />
+        <module name="hdd-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hdd-common" target="1.8" />
       <module name="hdd-polymerization" target="1.8" />
       <module name="hdd-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hdd-common" options="-parameters" />
       <module name="hdd-polymerization" options="-parameters" />
       <module name="hdd-server" options="-parameters" />
     </option>
